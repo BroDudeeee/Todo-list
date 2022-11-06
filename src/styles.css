@@ -1,0 +1,114 @@
+body {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  background-color: white;
+  min-width: 28rem;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.inputSubmit {
+  display: flex;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px 0 0 5px;
+  font-size: large;
+  padding: 0 0.5rem;
+}
+
+.submitBtn {
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  font-size: large;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+.submitBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.itemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 2rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.itemContainer:hover {
+  background-color: lightgray;
+}
+
+h4 {
+  font-size: large;
+}
+
+.clearAll {
+  margin-top: 2rem;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.clearAll:hover {
+  background-color: black;
+  color: white;
+}
+
+.trashBtn {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: transparent;
+  color: red;
+  border: none;
+  cursor: pointer;
+}
+
+.trashBtn:hover {
+  color: darkred;
+}
+
+.danger {
+  background-color: red;
+  color: brown;
+  border-radius: 5px;
+}
+
+.success {
+  background-color: lightgreen;
+  color: darkgreen;
+  border-radius: 5px;
+}
+
+.icons {
+  display: flex;
+}
+
+.editBtn {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: transparent;
+  color: lightgreen;
+  border: none;
+  cursor: pointer;
+}
+
+.editBtn:hover {
+  color: green;
+}
